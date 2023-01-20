@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
+body{
+    font-family: 'Nunito Sans', sans-serif !important;
+}
+.nav{
+    font-size: larger;
+}
+.carousel-caption{
+    background-color: rgba(30, 25, 25, 0.60);
+}
+.display-4, .lead{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+.card{
+    width: 18rem;
+}
+.card img{
+    height: 20vh;
+}
+#contenedorAdmins{
+    margin-bottom: 5vh;
+}
+#contenedorProyectos{
+    margin-bottom: 5vh;
+}
+.display-5{
+    font-weight: 500 !important;
+}
+.card-title{
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+}
+.card-text{
+    font-family: 'IBM Plex Mono', monospace !important;
+}
+input[required], textarea[required]{
+    border: 1px solid red;
+}
+/* cambiar borde de input a verde cuando se escriba */
+input[type="email"]:valid, textarea:valid{
+    border: 1px solid green;
+}
+i{
+    scale: 3.5;
+    margin-left: 2em;
+}
